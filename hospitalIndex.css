@@ -1,0 +1,131 @@
+.input123 {
+  display: block;
+  margin-bottom: 16px;
+  width: 400px;
+}
+
+.brand_container {
+  width: 200px;
+  height: 250px;
+  background-color: lightgray;
+  display: inline-block;
+  text-align: center;
+  margin: 8px;
+}
+
+.hide {
+  display: none;
+}
+
+.appear {
+  display: inline-block;
+}
+
+.search-bar {
+  height: 44px;
+  width: 500px;
+  border: 3px solid lightskyblue;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 20px;
+  position: relative;
+  background: #fff;
+}
+
+.input456 {
+  border: none;
+  height: 25px;
+  width: 150px;
+  color: #1b1b1b;
+  font-size: 15px;
+  outline: none;
+}
+
+.input456:not(:placeholder-shown) + .label {
+  font-size: 9px;
+  top: 3px;
+  color: #00c853;
+}
+
+.input456:focus ~ .label {
+  font-size: 9px;
+  top: 3px;
+  color: #4279a3;
+  transition: all 0.5s ease;
+}
+
+.label {
+  color: #aaaaaa;
+  position: absolute;
+  top: 13px;
+  pointer-events: none;
+  transition: all 0.5s ease;
+}
+
+.search-btn {
+  background: #4279a3;
+  border-radius: 20px;
+  height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  justify-content: center;
+  cursor: pointer;
+  right: 2px;
+  position: absolute;
+  transition: all 1s ease;
+}
+
+.icon {
+  display: inline-flex;
+}
+
+.icon-18 {
+  width: 18px;
+  height: 18px;
+}
+
+.highlight {
+  width: 0px;
+  height: 1px;
+  background: #4279a3;
+  position: absolute;
+  bottom: 8px;
+  transition: all 1s ease;
+}
+
+.input456:focus ~ .highlight {
+  width: 150px;
+  transition: all 1s ease;
+}
+
+.title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  box-shadow: none;
+}
+.card {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 5;
+  border: none;
+  border-radius: 0.28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin-top: 20px;
+  height: 240px;
+  width: 900px;
+}
+footer{
+  position:fixed;
+}
